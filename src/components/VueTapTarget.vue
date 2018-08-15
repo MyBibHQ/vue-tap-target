@@ -157,15 +157,11 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style>
 .tap-target { pointer-events:none; z-index:100000; }
 .tap-target-surround { border-radius:1000px; border:10px solid #fff; opacity:0.97; position:fixed; pointer-events:none; transition:opacity 0.4s, transform 0.4s; z-index:10; }
-.tap-target-pulse {
-  &:after { animation: pulse 1s cubic-bezier(0.24, 0, 0.38, 1) infinite; content: ''; border-radius: 50%; box-shadow:0 0 0 20px #ffffff; display: block; height: 100%; position: absolute; width: 100%;  }
-}
-.tap-target-breathe {
-  &:after { animation: breathe 1s cubic-bezier(0.24, 0, 0.38, 1) infinite; content: ''; border-radius: 50%; box-shadow:0 0 0 20px #ffffff; display: block; height: 100%; position: absolute; width: 100%;  }
-}
+.tap-target-pulse:after { animation: pulse 1s cubic-bezier(0.24, 0, 0.38, 1) infinite; content: ''; border-radius: 50%; box-shadow:0 0 0 20px #ffffff; display: block; height: 100%; position: absolute; width: 100%;  }
+.tap-target-breathe:after { animation: breathe 1s cubic-bezier(0.24, 0, 0.38, 1) infinite; content: ''; border-radius: 50%; box-shadow:0 0 0 20px #ffffff; display: block; height: 100%; position: absolute; width: 100%;  }
 .tap-target-content { font-weight:400; font-size:24px; line-height:1.2em; opacity:0.9; position:absolute; }
 .tap-target-overlay { background:transparent; position:fixed; pointer-events: auto; z-index:10000; }
 
