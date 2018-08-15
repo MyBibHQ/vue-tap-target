@@ -51,7 +51,7 @@ export default {
       type: String
     },
     target: {
-      type: Object
+      type: HTMLElement
     },
     title: {
       type: String

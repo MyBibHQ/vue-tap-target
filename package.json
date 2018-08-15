@@ -1,7 +1,7 @@
 {
   "name": "vue-tap-target",
   "description": "A Vue.js plugin to mirror the material design Tap Target component.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "MyBib"
   },
