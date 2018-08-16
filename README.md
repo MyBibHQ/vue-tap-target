@@ -85,9 +85,11 @@ Vue.use(VueTapTarget)
 
 Default slot: for more control over the contents of the tap target use the default slot. Anything in this slot will override the `title` and `content` props.
 
-# Example
+# Examples
 
-> TODO
+ - We use this on the mobile version of our bibliography generator at [MyBib](https://www.mybib.com). Visit the site on a mobile device (or with a mobile useragent) and click the blue button in the modal to see it in action.
+
+If you're using this in an accessible environment feel free to add a link to this list and send a PR.
 
 ---
 
